@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Tebas Index
 # Coded by Senja
-# Github: github.com/thesixtynine/Tebasindex
+# Github: github.com/thedarksec/Tebasindex
 
 checkroot() {
 
@@ -62,7 +62,7 @@ template() {
 printf "\n"
 printf "\e[0m[\e[1;94m#\e[0m] Tebas Index Deface Website\n"
 printf "\e[0m[\e[1;93m*\e[0m] Coded by Senja\n"
-printf "\e[0m[\e[1;96m&\e[0m] My Github: @thesixtynine\n"
+printf "\e[0m[\e[1;96m&\e[0m] My Github: @thedarksec\n"
 sleep 1
 printf "\n"
 
