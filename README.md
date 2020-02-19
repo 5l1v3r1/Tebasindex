@@ -1,5 +1,5 @@
 #### Screenshot:
-![](./Screenshoot.png)
+![](./Screenshot.png)
 #### Usage:
 ```
 pkg update && pkg upgrade
@@ -10,6 +10,9 @@ cd Tebasindex
 ls
 bash tebasindex.sh
 ```
+#### Kontak:
++ Email d_q16x@outlook.co.id
++ WhatsApp +62 85775433901
 #### Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
 #### LiberaPay:
