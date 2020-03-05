@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Tebasindex
 # Coded by Nedi Senja
 # Github: https://github.com/stepbystep/Tebasindex
