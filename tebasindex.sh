@@ -50,12 +50,17 @@ template(){
     printf "\e[0;45;77;1m[        Tebas Indexs, My Github: @stepbystepexe         ]\e[0m\n\n"
 }
 config(){
-    read -p $'\e[0m[\e[1;93m?\e[0m\e[0m] \e[1;77mMasukan Web Target: \e[0m' link
-    read -p $'\e[0m[\e[1;92m+\e[0m\e[0m] \e[1;77mMasukan Script: \e[0m' script
+    clearscreen
+    banner
+    template
+    printf "\e[0m[ \033[32mINFO \e[0m] \033[3mHanya script sederhana tapi tolong hargai pembuat\n\n\n"
+    sleep 1
+    read -p $'\e[0m[\e[41;77;1m Website \e[0m] ' link
+    read -p $'\e[0m[\e[46;90;1m Scripts \e[0m] ' script
     sleep 1.5
-    printf "\n\e[0m[\e[1;91m!\e[0m] \e[1;77mMengecek ...\n"
+    printf "\n\e[0m[\e[1;94m●\e[0m] \e[1;77mSedang memproses ..."
     sleep 3
-    printf "\n\e[0m[\e[1;96m INFO \e[0m] Web target harus vulen\n"
+    printf "\n\n\e[0m[\e[1;92m INFO \e[0m] Web target harus vuln\n"
     sleep 3
     load
     echo
@@ -67,16 +72,17 @@ config(){
     echo
 }
 menu(){
-    printf "\033[0m[\033[1;96mあ\033[0m] \033[1;77mMulai Menggunakan Tebasindex\n"
+    printf "\033[0m[\033[1;96;2m1\033[0m] \033[1;77mGunakan Tebasindex\n"
     echo
     printf "\033[0m[\033[93;1m&\033[0m] LISENSI\n"
     printf "\033[0m[\033[94;1m#\033[0m] Informasi\n"
     printf "\033[0m[\033[92;1m*\033[0m] Perbarui\n"
     printf "\033[0m[\033[91;1m-\033[0m] Keluar\n"
     echo
-        read -p $'\e[0m[\e[1;95m/\e[0m] \e[1;77mMasukan opsi: \e[0m' option
-        if [[ $option == '1' || $option == 'あ' ]]; then
-            echo
+        read -p $'\e[0m(\e[105;77;1m/\e[0m) \e[1;77mMasukan opsi: \e[0m' option
+        if [[ $option == '1' ]]; then
+            printf "\n\e[0m[\e[32m●\e[0m] \e[77;1mSedang memproses ...\e[0m"
+            sleep 1
             config
                 elif [[ $option == '2' || $option == '&' ]]; then
                 echo
@@ -94,7 +100,7 @@ menu(){
                         echo
                         git pull origin master
                         echo
-                        read -p $'\e[0m[\e[92m Tekan Enter \e[0m]'
+                        read -p $'\e[0m[\e[32m Tekan Enter \e[0m]'
                         clearscreen
                         banner
                         template
