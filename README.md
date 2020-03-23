@@ -1,5 +1,5 @@
 # Tbasindex:
-*Tebas index itu mengubah tampilan sebuah website sesuai pengertian Index itu sendiri ialah tampilan halaman utama website. Syarat utama tebas index harus upshell terlebih dahulu. Dan gunakan shell yang memadai*
+**```Tebas index```** itu mengubah tampilan sebuah website sesuai pengertian Index itu sendiri ialah tampilan halaman utama website. Syarat utama tebas index harus upshell terlebih dahulu. Dan gunakan shell yang memadai.
 #### Screenshot:
 ![](./Skrinsut.png)
 #### Cara Menginstall:
