@@ -1,5 +1,5 @@
 <h1 align="center">Tebasindex</h1>
-<h5 align="center">Tebas index itu mengubah tampilan sebuah website sesuai pengertian Index itu sendiri ialah tampilan halaman utama website. Syarat utama tebas index harus upshell terlebih dahulu. Dan gunakan shell yang memadai.</h5>
+<h5 align="center">Tebas index itu mengubah tampilan sebuah website sesuai pengertian Index itu sendiri ialah tampilan halaman utama website. Syarat utama tebas index harus upshell terlebih dahulu. Dan gunakan shell yang memadai.</h5>
 
 <p align="center">
   <a href="https://">
