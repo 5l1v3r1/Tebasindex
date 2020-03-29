@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/License-MIT-red.svg">
   </a>
   <a href="https://opensource.org">
-    <img src="https://img.shields.io/badge/Open%20Source-●-success.svg">
+    <img src="https://img.shields.io/badge/Open%20Source-●-blue.svg">
   </a>
 </p>
 
